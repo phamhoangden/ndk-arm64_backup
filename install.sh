@@ -117,6 +117,6 @@ wget -q --show-progress -N "https://github.com/phamhoangden/ndk-arm64_backup/rel
 chmod +x aapt2
 
 echo 'sdk.dir=/data/data/com.termux/files/home/android-sdk' > gradle.properties
-echo 'android.aapt2FromMavenOverride=/data/data/com.termux/files/home/.gradle/aapt2' > gradle.properties
+echo 'android.aapt2FromMavenOverride=/data/data/com.termux/files/home/.gradle/aapt2' >> gradle.properties
 
 echo "Install and setup done!"
